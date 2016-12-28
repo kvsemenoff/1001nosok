@@ -64,11 +64,13 @@ font-size: 40px;
 		padding:25px 0;
 		font-size:30px;
 		display: inline-block;
+
 	}
 	.db-input-one{
 		padding-bottom:30px;
 		input[type="text"]{
 			padding:10px 0px 10px 15px;
+			width: 250px;
 
 		}
 	}			
@@ -76,6 +78,7 @@ font-size: 40px;
 padding-bottom:30px;
 input[type="text"]{
 			padding:10px 0px 10px 15px;
+			width: 250px;
 		}
 	}
 	.db-input-three{
@@ -126,8 +129,18 @@ float:left;
 }
 
 @media only screen and (min-width : 480px) {
+	.db-input-two{
+input[type="text"]{
+	width: auto !important;
 }
+}
+	.db-input-one{
 
+input[type="text"]{
+	width: auto !important;
+}
+}
+}
 @media only screen and (min-width : 768px) {
 }
 
