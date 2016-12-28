@@ -33,7 +33,21 @@
 	<script src="js/common.js"></script>
 
 	<?php require_once('includes/header.php'); ?>
+	<?php require_once('includes/your_case.php'); ?>
+	<?php require_once('includes/select_your_case.php'); ?>
 	<?php require_once('includes/ydobstvo.php'); ?>
+	<?php require_once('includes/we_help_select.php'); ?>
+	<?php require_once('includes/how_look_case.php'); ?>
+	<?php require_once('includes/now_not_black.php'); ?>
+	<?php require_once('includes/often_questions.php'); ?>
+	<?php require_once('includes/we_help_select.php'); ?>
+	<?php require_once('includes/socks.php'); ?>
+	<?php require_once('includes/payment.php'); ?>
+	<?php require_once('includes/we_help_select.php'); ?>
+	<?php require_once('includes/we_and_factorys.php'); ?>
+	<?php require_once('includes/otzivi.php'); ?>
+	<?php require_once('includes/about_gifts.php'); ?>
+	<?php require_once('includes/we_help_select.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
 
 	
