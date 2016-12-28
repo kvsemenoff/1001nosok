@@ -6,48 +6,47 @@
 .df-bg-noski{
 	background-image: url(/img/df-bg.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
-	height: 700px;
-	width: 100%; 
-	background-size: cover;
-	.df-ydobstvo{		
-		h3{
-			text-align: center;
-			text-transform: uppercase;
-			font-size: 50px;
-			color:#2b2b2b;
-			margin: 75px 0 30px 0;
-			font-family: "pt-sans-caption";
-		}
-		.df-2box{
-			font-family: "pt-sans-caption";
-			.df-left{
-				display: inline-block;
-				float: left;
-				 font-family: "pt-sans-caption-bold";
-				span{
-					font-size: 18px;
-					color:#2b2b2b;
-					display: block;
-					padding: 5px 0 5px 30px;
-					background-image: url(/img/df-minus.png);
-					background-position: left center;
-					background-repeat: no-repeat;
-				}
+	background-position: center top;
+	min-height: 400px;	
+	width: 100%; 	
+		h2{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 36px;
+		color:#2b2b2b;
+		margin-top: 35px;
+		margin-bottom: 450px ;
+		font-family: "pt-sans-caption";
+		letter-spacing: -4px;
+	}		
+	.df-2box{
+		font-family: "pt-sans-caption";
+		text-align: center;		
+		.df-right, .df-left{
+			display: inline-block;
+			// float: left;
+			font-family: "pt-sans-caption-bold";
+			margin-bottom: 20px;			
+			text-align: left;
+			span{
+				font-size: 18px;
+				color:#2b2b2b;
+				display: block;
+				padding: 5px 0 5px 36px;
+				background-image: url(/img/df-minus.png);
+				background-position: left center;
+				background-repeat: no-repeat;
+				margin-bottom: 9px;
+				
 			}
-			.df-right{
-				display: inline-block;
-				float: right;
-				 font-family: "pt-sans-caption-bold";
-				span{
-					font-size: 18px;
-					color:#fcb446;
-					display: block;
-					padding: 5px 0 5px 30px;
-					background-image: url(/img/df-plus.png);
-					background-position: left center;
-					background-repeat: no-repeat;
-				}
+		}
+		.df-right{				
+			span{				
+				color:#fcb446;				
+				padding: 5px 0 5px 30px;
+				background-image: url(/img/df-plus.png);
+				background-position: left center;
+				background-repeat: no-repeat;				
 			}
 		}
 	}
@@ -55,25 +54,61 @@
 
 
 @media only screen and (min-width : 320px) {
+	.df-bg-noski{
+		h2{
+			margin-bottom: 520px ;// 700 	
+		}
+	}	
 }
 
 @media only screen and (min-width : 480px) {
 }
 
 @media only screen and (min-width : 768px) {
+	.df-bg-noski{			
+		height: 100%;
+		h2{						
+			font-size: 50px;
+			margin-top: 55px; 
+			margin-bottom: 423px ;// 475
+		}		
+		.df-2box{
+			.df-left{			
+				float: left;			
+				margin-bottom: 40px;			
+			}
+			.df-right{					
+				float: right;			
+				margin-bottom: 40px;				
+			}
+		}
+	}
+
 }
 
 @media only screen and (min-width : 992px) {
+	.df-bg-noski{		
+		.df-2box{
+			.df-left{					
+				margin-left: -11px;	
+			}
+			.df-right{		
+				margin-right: 20px;	
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 1248px) {
+
+
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }
