@@ -49,7 +49,6 @@
 	<?php require_once('includes/about_gifts.php'); ?>
 	<?php require_once('includes/we_help_select.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
-
 	
 </body>
 </html>
