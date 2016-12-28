@@ -1,61 +1,126 @@
-@import "reset.css";
-@import "style.css";
-@import "style2.css";
-@import "style3.css";
-@import "style4.css";
-@import "fonts.css";
 
 .title{
 font-family: "pt-sans-caption";
 font-size: 40px;
 }
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000; width: 100%; height: 100%;  display:none; }
+.window{ 
+	display: none;
+	position:absolute;
+	left:0;  
+	top:0;
+    // max-width: 388px;
+    //width: 958px;
+    display:none;
+    z-index:9998; 
+    background: #fff;
+    font-family: "pt-sans-caption";
+
+   
+    .dd-close{
+    	width: 30px;
+    	height: 30px;
+    	background:url(../img/kres.png) no-repeat center;
+    	position:absolute;
+    	    top: -28px;
+    right: -31px;
+    	cursor: pointer;
+    	transition: 0.5s;
+    
+    }
+    .dd-close:hover{
+    	background:url(../img/kres2.png) no-repeat center;
+    	transition: 0.5s;
+    }
+}
+.form-title{
+	    font-size: 22px;
+    text-align: center;
+    font-family: "pt-sans-caption";
+    color: #a16d1e;
+   
+}
+.dd-form-txt{
+
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+    font-family: pt-sans-caption;
+}
+.form-wrap-red{
+	padding: 40px;
+}
 .db-all-container{
 	text-align: center;
 	padding:25px 0;
-	background-color: #47484b;
+	background: url("../img/db-form.png") no-repeat center center;
+	background-size: cover;
 	font-family: "pt-sans-caption";
 	font-size:20px;
-
+	width: 100%;
 
 	.db-header{
 		color:#fff;	
 		padding:25px 0;
 		font-size:30px;
+		display: inline-block;
 	}
 	.db-input-one{
-		padding:25px 0;
-	
+		padding-bottom:30px;
 		input[type="text"]{
-			padding:10px 10px 10px 0;
+			padding:10px 0px 10px 15px;
+
 		}
 	}			
 	.db-input-two{
-.error-input{
-			border:1px solid red !important;
-		}
+padding-bottom:30px;
 input[type="text"]{
-			padding:10px 10px 10px 0;
+			padding:10px 0px 10px 15px;
 		}
 	}
 	.db-input-three{
-		padding:25px 0;
-		
+	
 		input[type="submit"]{
 			background-color: #fab445; 
 			padding:10px;
 			color:#fff;
 			border:none;
-			width: 200px;
 			transition:all 0.5s;
+			height:51px;
+			width:200px;
 		}
 		input[type="submit"]:hover{
 			transition:all 0.5s;
 			background-color:darken(#fab445, 10%);
+
 		}
-
-
 	}
 }
+.db-footer-block{
+	font-family:"pt-sans-caption";
+	background-color: #121212;
+	color:#fff;
+	.db-tel{
+font-size:30px;
+float:left;
+	}
+	.db-link{
+		text-align: right;
+		li{
+		a{
+			text-decoration: underline;
+			color:#d6d6d6;
+			font-size:13px;
+			line-height: 24px;
+			float:right;
+			padding-right:20px; 
+		}
+		}
+	}
+}
+.error-input{
+			border:1px solid red !important;
+		}
 
 @media only screen and (min-width : 320px) {
 }
@@ -67,69 +132,46 @@ input[type="text"]{
 }
 
 @media only screen and (min-width : 992px) {
-.db-all-container{
+	.db-all-container{
+		text-align: center;
+		padding-bottom:60px;
 
- padding-bottom:60px;
+		.db-input-one{
+			width: 100%;
+			text-align: right !important;
+			margin-left:77px;
 
-	.db-input-one{
-		padding:0;
-		
-	}			
-	.db-input-two{
+			input{
+				width:298px;
+				display: inline-block;
+			}
+
+		}			
+		.db-input-two{
+			width: 100%;
+			   margin-left: 47px;
+			   input{
+			   	width: 300px;
+			   }
+}
+
+		}
+		.db-input-three{
+			text-align: left !important;
+			width: 100%;
+			margin-left:17px;
+			input{
+				
+			}
+		}
 	}
-	.db-input-three{
-		padding:0px;
-	
-			
-}
-}
-}
 
 @media only screen and (min-width : 1248px) {
-	.db-all-container{
-	text-align: center;
-	padding: 45px 0 65px 190px;
-	font-size:20px;
-	width:100%;
-	margin: 0 auto;
- 
+	
 
-	.db-header{
-		padding: 19px 279px 30px 0;
-	}
-	.db-input-one{
-		padding:0;
-		max-width:300px;
-		width:90%;
-		input[type="text"]{
-			padding:10px 0 10px 18px;
-			width:300px;
-		}
-	}			
-	.db-input-two{
-		width:90%;
-		max-width:300px;
-		margin-left: -62px;
-input[type="text"]{
-			padding: 10px 0 10px 18px;
-			width:300px;
-		}
-	}
-	.db-input-three{
-		padding:1px;
-		width:200px;
-		margin-left: -121px;
-		input[type="submit"]{
-		width:200px;
-			padding:10px;
-			
-		}
 }
-}
-}
-
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    //outline: 5px solid red;
+    // outline: 1px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   
