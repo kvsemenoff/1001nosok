@@ -30,7 +30,9 @@ font-size: 40px;
 		}
 	}			
 	.db-input-two{
-
+.error-input{
+			border:1px solid red !important;
+		}
 input[type="text"]{
 			padding:10px 10px 10px 0;
 		}
@@ -44,7 +46,14 @@ input[type="text"]{
 			color:#fff;
 			border:none;
 			width: 200px;
+			transition:all 0.5s;
 		}
+		input[type="submit"]:hover{
+			transition:all 0.5s;
+			background-color:darken(#fab445, 10%);
+		}
+
+
 	}
 }
 

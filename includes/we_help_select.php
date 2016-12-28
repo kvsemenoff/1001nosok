@@ -5,7 +5,7 @@
 			<div class="db-header">
 				Оставьте заявку и мы поможем выбрать
 			</div>
-			<form action="#" method="post" class="az-options">
+			<form action="#" method="post" class="form1">
 			<div class="col-md-4">
 					<div class="db-input-one">
 						<input type="text" placeholder="Ваше имя" name="uname">
@@ -13,7 +13,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="db-input-two">
-						<input type="text" placeholder="Номер телефона" name="phone">
+						<input type="text" placeholder="Номер телефона" name="phone" class="phone">
 					</div>
 				</div>
 				<div class="col-md-4">
