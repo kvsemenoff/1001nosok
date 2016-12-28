@@ -94,8 +94,8 @@ $(document).ready(function(){
                 url: "/sendmessage.php", 
                 data: form_data,
                 success: function() {
-                   
-                    cleanTnanks("");
+            
+                    cleanTnanks(".form1");
                 }
             });
         }
