@@ -153,7 +153,143 @@ a:active, a:focus{
 	}
 }
 
+//========select-your-case
+.df-bg-orange{
+	background: #fcb446;
+	padding-bottom: 80px;
+	h2{
+		color:#fff;
+		text-align: center;
+		margin: 55px 0;
+		font-size: 40px;
+		text-transform: uppercase;
+		font-family: "pt-sans-caption";
+	}
+	.df-box-case{
+		display: inline-block;		
+		text-align: center;
+		margin: 0 55px 40px 0;
+		.df-span1{
+			color:#a16d1e;
+			font-size: 15px;
+			font-family: "pt-sans-caption";
+		}
+		.df-span2{
+			font-family: "pt-sans-caption-bold";
+			font-size: 21px;
+			color:#121212;
+			text-transform: uppercase;
+		}		
+		.df-case{
+			background: #fff;			
+			font-family: "pt-sans-caption";
+			width: 320px;
+			
+			padding-bottom: 20px;
+			
+			img{
+				text-align: center;
+				display: inline-block;
+			}
+			.df-vigodno{
+				background-image: url(/img/df-cool.png);
+				background-repeat: no-repeat;
+				background-position: center center;
+				color:#797979;
+				font-size: 15px;				
+				text-transform: uppercase;
+				display: block;
+				padding: 19px 60px 19px 0;
+			}
+			.df-chose{
+				font-size: 13px;
+				color:#8b8781;
+				display: block;
+				text-align: left;
+				padding-left: 20px;
+				margin: 7px 0 15px 0;
+			}
+			.df-inputs{	
+				text-align: left;
+				padding: 0 20px ;		
+				.checkbox {
+				    display: none;
+				}
+				.checkbox-custom {
+				    position: relative;      
+				    width: 19px;             
+				    height: 19px;          
+				    border: 2px solid #bebebe;
+				    background:none;
+				    margin-bottom: 15px;				 			    
+				}
+				.checkbox-custom:hover{
+					 border: 2px solid #fcb446;
+				}				
+				.checkbox-custom,
+				.label {
+				    display: inline-block;
+				    vertical-align: top;
+				}				
+				.checkbox:checked + .checkbox-custom::after {
+				    content: "";            
+				    display: block;          
+				    position: absolute;   
+				    top: 0px;
+				    right: 0;
+				    bottom: 0;				   
+				    left: 0px;
+				    border:none;
+				    background-image: url(/img/df-galka.png);
+				    background-repeat: no-repeat;
+				    border: 2px solid #fcb446;		   
+				}
 
+
+				.df-price{
+					font-size: 15px;
+					color:#121212;
+					font-family: "pt-sans-caption-bold";
+					span{
+						font-family: "pt-sans-caption";
+						color:#8b8781;
+					}
+				}
+			}
+			
+			.df-link{
+				margin: 20px 20px 0 20px;
+				min-height: 45px;
+				font-size: 14px;
+				color:#121212;
+				font-family: "pt-sans-caption-bold";
+				text-transform: uppercase;
+				padding: 14px 49px;//59
+				border-bottom: 3px solid #9b6510;
+				background-color: #fab445 ;
+				box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+				-webkit-box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+			  	vertical-align: top;
+
+			  	display: inline-block;
+			  	transition: all 0.5s;
+			  	-moz-transition: all 0.5s;
+			  	-webkit-transition: all 0.5s;
+			}
+			.df-link:hover{
+				border-bottom: 1px solid #9b6510;
+
+				color:#fff;				
+				background-color: #fab445 ;
+				box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+				-webkit-box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+				transition: all 0.5s;
+			  	-moz-transition: all 0.5s;
+			  	-webkit-transition: all 0.5s;
+			}
+		}
+	}
+}
 
 @media only screen and (min-width : 320px) {
 	.df-bg-noski{
