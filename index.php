@@ -23,6 +23,7 @@
 	<script src="libs/wow/wow.min.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+	<script type="text/javascript" src="js/comon.js"></script>
 
 	<script>
     	new WOW().init();
@@ -49,7 +50,6 @@
 	<?php require_once('includes/about_gifts.php'); ?>
 	<?php require_once('includes/we_help_select.php'); ?>
 	<?php require_once('includes/footer.php'); ?>
-
 	
 </body>
 </html>

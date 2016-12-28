@@ -5,6 +5,49 @@
 @import "style4.css";
 @import "fonts.css";
 
+.title{
+font-family: "pt-sans-caption";
+font-size: 40px;
+}
+.db-all-container{
+	text-align: center;
+	padding:25px 0;
+	background-color: #47484b;
+	font-family: "pt-sans-caption";
+	font-size:20px;
+
+
+	.db-header{
+		color:#fff;	
+		padding:25px 0;
+		font-size:30px;
+	}
+	.db-input-one{
+		padding:25px 0;
+	
+		input[type="text"]{
+			padding:10px 10px 10px 0;
+		}
+	}			
+	.db-input-two{
+
+input[type="text"]{
+			padding:10px 10px 10px 0;
+		}
+	}
+	.db-input-three{
+		padding:25px 0;
+		
+		input[type="submit"]{
+			background-color: #fab445; 
+			padding:10px;
+			color:#fff;
+			border:none;
+			width: 200px;
+		}
+	}
+}
+
 @media only screen and (min-width : 320px) {
 }
 
@@ -15,9 +58,65 @@
 }
 
 @media only screen and (min-width : 992px) {
+.db-all-container{
+
+ padding-bottom:60px;
+
+	.db-input-one{
+		padding:0;
+		
+	}			
+	.db-input-two{
+	}
+	.db-input-three{
+		padding:0px;
+	
+			
+}
+}
 }
 
 @media only screen and (min-width : 1248px) {
+	.db-all-container{
+	text-align: center;
+	padding: 45px 0 65px 190px;
+	font-size:20px;
+	width:100%;
+	margin: 0 auto;
+ 
+
+	.db-header{
+		padding: 19px 279px 30px 0;
+	}
+	.db-input-one{
+		padding:0;
+		max-width:300px;
+		width:90%;
+		input[type="text"]{
+			padding:10px 0 10px 18px;
+			width:300px;
+		}
+	}			
+	.db-input-two{
+		width:90%;
+		max-width:300px;
+		margin-left: -62px;
+input[type="text"]{
+			padding: 10px 0 10px 18px;
+			width:300px;
+		}
+	}
+	.db-input-three{
+		padding:1px;
+		width:200px;
+		margin-left: -121px;
+		input[type="submit"]{
+		width:200px;
+			padding:10px;
+			
+		}
+}
+}
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
