@@ -8,9 +8,34 @@
 
 // background:url(../img/kres.png) #98BE28 no-repeat center;
 
-
-
-
+h4{
+	font-family: "pt-sans-caption-bold";
+	font-size: 24px;
+	font-weight: 700;
+	z-index: 10;
+	position: relative;
+	display: inline-block;
+	background: #FCB446;
+	color:#fff;
+	padding: 8px;
+}
+h4:after, h4:before{
+	content: '';
+	width: 0px;
+	height: 0px;
+	top: 0px;
+	position: absolute;
+}
+h4:after{
+	border-top: 47px solid transparent;
+	border-right: 23px solid #000;
+	left: -23px;
+}
+h4:before{
+	border-bottom: 47px solid transparent;
+	border-left: 23px solid #000;
+	right: -23px;
+}
 
 
 
@@ -39,7 +64,7 @@
     //outline: 5px solid red;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  
+
 }
 .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 }

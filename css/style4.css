@@ -1,2 +1,2 @@
-@import url(reset.css);@import url(style.css);@import url(style2.css);@import url(style3.css);@import url(fonts.css)
+@import url(reset.css);@import url(style.css);@import url(style2.css);@import url(style3.css);@import url(fonts.css);h4{font-family:"pt-sans-caption-bold";font-size:24px;font-weight:700;z-index:10;position:relative;display:inline-block;background:#FCB446;color:#fff;padding:8px}h4:after,h4:before{content:'';width:0px;height:0px;top:0px;position:absolute}h4:after{border-top:47px solid transparent;border-right:23px solid #000;left:-23px}h4:before{border-bottom:47px solid transparent;border-left:23px solid #000;right:-23px}
 /*# sourceMappingURL=style4.css.map */

@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-9">
 				<div class="dd-logo">
-					<h3>1001NOSOK.RU</h3>
+					<h4>1001NOSOK.RU</h4>
 				</div>
 				<div class="dd-phone">
 					
