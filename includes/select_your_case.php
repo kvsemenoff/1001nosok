@@ -46,19 +46,19 @@
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">1 399 р.<span>— 30 пар в кейсе </span></span><br>
+							<span class="df-price">1 799 р.<span>— 30 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test" >
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">1 799 р.<span>— 50 пар в кейсе </span></span><br>
+							<span class="df-price">2 499 р.<span>— 50 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test">
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">2 499 р.<span>— 100 пар в кейсе </span></span><br>
+							<span class="df-price">3 999 р.<span>— 100 пар в кейсе </span></span><br>
 							<a href="#thanks2"  name="modal" class="df-link">Бамбуковые носки заказать</a>
 						</div>						
 					</div>
@@ -76,25 +76,25 @@
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">1 399 р.<span>— 30 пар в кейсе </span></span><br>
+							<span class="df-price">1 999 р.<span>— 30 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test" >
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">1 799 р.<span>— 50 пар в кейсе </span></span><br>
+							<span class="df-price">2 999 р.<span>— 50 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test">
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">2 499 р.<span>— 100 пар в кейсе </span></span><br>
+							<span class="df-price">4 999 р.<span>— 100 пар в кейсе </span></span><br>
 							<a href="#thanks2"  name="modal" class="df-link">Хлопок - Люкс заказать</a>
 						</div>						
 					</div>
 				</div>
 				<div class="df-box-case">
-					<span class="df-span1">Кейс носков</span><br>
+					<span class="df-span1">Кейс носков микс</span><br>
 					<span class="df-span2">«Бамбук MIX»</span>
 					<div class="df-case">
 						<img src="img/df-case2.png" alt="">
@@ -106,29 +106,28 @@
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">1 399 р.<span>— 30 пар в кейсе </span></span><br>
+							<span class="df-price">1 799 р.<span>— 30 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test" >
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">1 799 р.<span>— 50 пар в кейсе </span></span><br>
+							<span class="df-price">2 499 р.<span>— 50 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test">
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">2 499 р.<span>— 100 пар в кейсе </span></span><br>
+							<span class="df-price">3 999 р.<span>— 100 пар в кейсе </span></span><br>
 							<a href="#thanks2"  name="modal" class="df-link">Бамбук MIX заказать</a>
 						</div>
 						
 					</div>
 				</div>
 				<div class="df-box-case">
-					<span class="df-span1">Кейс носков</span><br>
+					<span class="df-span1">Кейс носков микс</span><br>
 					<span class="df-span2">«Носки ХБ MIX»</span>
 					<div class="df-case">
-
 						<img src="img/df-case2.png" alt="">
 						<span class="df-vigodno">Комфортно!</span>
 						<span class="df-chose">Выбери свой кейс</span>
@@ -138,19 +137,19 @@
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">1 399 р.<span>— 30 пар в кейсе </span></span><br>
+							<span class="df-price">1 499 р.<span>— 30 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test" >
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">1 799 р.<span>— 50 пар в кейсе </span></span><br>
+							<span class="df-price">1 899 р.<span>— 50 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test">
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">2 499 р.<span>— 100 пар в кейсе </span></span><br>
+							<span class="df-price">2 799 р.<span>— 100 пар в кейсе </span></span><br>
 								<a href="#thanks2"  name="modal" class="df-link">Носки ХБ MIX заказать</a>
 						</div>
 					
@@ -160,7 +159,6 @@
 					<span class="df-span1">Кейс носков</span><br>
 					<span class="df-span2">«Шерсть»</span>
 					<div class="df-case">
-
 						<img src="img/df-case1.png" alt="">
 						<span class="df-vigodno">идеально для зимы!</span>
 						<span class="df-chose">Выбери свой кейс</span>
@@ -170,19 +168,19 @@
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">2 399 р.<span>— 30 пар в кейсе </span></span><br>
+							<span class="df-price">2 299 р.<span>— 30 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test" >
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">3 799 р.<span>— 50 пар в кейсе </span></span><br>
+							<span class="df-price">3 199 р.<span>— 50 пар в кейсе </span></span><br>
 							<label>
 								<input class="checkbox" type="radio" name="checkbox-test">
 								<span class="checkbox-custom"></span>
 								<span class="label"></span>
 							</label>
-							<span class="df-price">5 499 р.<span>— 100 пар в кейсе </span></span><br>
+							<span class="df-price">5 399 р.<span>— 100 пар в кейсе </span></span><br>
 							<a href="#thanks2"  name="modal" class="df-link">Шерсть заказать</a>
 						</div>
 					
