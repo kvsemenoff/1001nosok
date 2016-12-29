@@ -177,7 +177,7 @@ a:active, a:focus{
 		.df-case{
 			background: #fff;			
 			font-family: "pt-sans-caption";
-			width: 320px;
+			width: 280px;
 			padding-bottom: 19px;			
 			img{
 				text-align: center;
@@ -242,8 +242,9 @@ a:active, a:focus{
 				    background-repeat: no-repeat;
 				   	border:none;				       	
 				}
-				.checkbox-custom:hover::after{
-					border: 1px solid #fcb446;
+				.checkbox-custom:hover{
+					background-image: url("../img/df-hover.png");				    
+				    background-repeat: no-repeat;
 				}
 				.df-price{
 					font-size: 15px;
@@ -332,6 +333,13 @@ a:active, a:focus{
 			margin-bottom: 520px ;// 700 	
 		}
 	}	
+	.df-bg-orange{
+		.df-box-case{
+			.df-case{			
+				width: 320px;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 480px) {
