@@ -12,6 +12,10 @@
 	margin: 0 auto;
 	position:relative;
 }
+.dd-header-wrap2{
+	background: #fff !important;
+	padding-bottom: 16px !important;
+}
 .dd-header-wrap{
 	padding-top: 16px;
 	padding-bottom: 0px;
@@ -350,7 +354,7 @@
 
 	.dd-header-wrap{
 		.dd-big-h4-wrap{
-			margin-top: 70px;
+			margin-top: 38px !important;
 			.dd-big-h4{
 				transform: skew(-25deg);
 				padding-left: 30px;
@@ -365,6 +369,8 @@
 		}
 		.dd-big-h4-wrap2{
 			.dd-big-h4-2{
+				width: 300px;
+				margin: 0 auto;
 				transform: skew(-25deg);
 				span{
 					transform: skew(25deg);
@@ -578,7 +584,7 @@
 		.dd-timer-all-wrap{
 			position:absolute;
 			right: 0;
-			top: 255px;
+			top: 128px;
 		}
 	}
 }
