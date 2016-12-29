@@ -17,7 +17,7 @@
 		<ul>
 			<li><a href="#">Оптом в кейсах</a></li>
 			<li><a href="#">Разнообрезие</a></li>
-			<li><a href="#">От лучших поставщиков</a></li>
+			<li><a href="#thanks2"  name="modal">От лучших поставщиков</a></li>
 		</ul>
 	</div>
 	</div>
@@ -40,3 +40,7 @@
 	</div>
 </div>
 <a href="#thanks" name="modal"></a>
+<div id="thanks2" class="window">
+<div class="dd-close"></div>
+	<div><img src="../img/db-socks.png" alt="image"></div>
+</div>
