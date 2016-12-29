@@ -56,7 +56,7 @@
 			<span class="db-price-two">50 пар в кейсе</span>
 		</div>
 		<div class="db-form-content">
-			<form action="#" class="form1" method="post">
+			<form action="thanks.php" method="post">
 				<input type="text" name="uname" placeholder="Ваше имя"><br>
 				<input type="text" name="phone" placeholder="Номер телефона" class="phone"><br>
 				<input type="submit" name="submit" value="100% ХЛОПОК ЗАКАЗАТЬ">

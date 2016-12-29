@@ -59,7 +59,6 @@
 			</section>
 
 		</div>
-
 		<div class="n-content">
 			<div class="n-content-inner vertical-align">
 			<section>
@@ -84,11 +83,6 @@
 			<?php require_once('includes/footer.php'); ?>
 		</div>
 	</div>
-	
-
-
-
-
 </body>
 </html>
 
