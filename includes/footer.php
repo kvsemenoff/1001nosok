@@ -43,4 +43,10 @@
 <div id="thanks2" class="window">
 <div class="dd-close"></div>
 	<div><img src="../img/db-socks.png" alt="image"></div>
+	<div class="db-content-window">
+		<div class="db-h-content">
+			<span>Кейс носков</span>
+		</div>
+
+	</div>
 </div>
