@@ -46,6 +46,7 @@
 	<div class="db-window-img"><img src="../img/db-socks.png" alt="image"></div>
 	<div class="db-content-window">
 		<div class="db-h-content">
+<<<<<<< HEAD
 			<span class="db-h-one">Кейс носков</span><br>
 			<span class="db-h-two">"ХЛОПОК"</span>
 		</div>
@@ -59,6 +60,14 @@
 				<input type="text" name="phone" placeholder="Номер телефона" class="phone"><br>
 				<input type="submit" name="submit" value="100% ХЛОПОК ЗАКАЗАТЬ">
 			</form>
+=======
+<<<<<<< HEAD
+			<span>Кейс носков</span>
+=======
+			<span>Кейс носков</span><br>
+			<span>"ХЛОПОК"</span>
+>>>>>>> 32956ddd20716fe0d39dc0ded4bdb59a30986c6d
+>>>>>>> 2dbe084228e8083f6d73ade4131d632e3b7448c0
 		</div>
 	</div>
 </div>
