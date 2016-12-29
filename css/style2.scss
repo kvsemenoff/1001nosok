@@ -32,10 +32,10 @@ font-size: 40px;
     	background:url(../img/kres.png) no-repeat center;
     	position:absolute;
     	    top: 0px;
-    right: 0px;
+    right: 17px;
     	cursor: pointer;
     	transition: 0.5s;
-    
+       
     }
     .dd-close2:hover{
     	background:url(../img/kres2.png) no-repeat center;
@@ -53,16 +53,21 @@ font-size: 30px;
 font-weight: 700;
 text-transform: uppercase;
    }
+}
+
    .db-price-one{
 	color: #121212;
 font-size: 22px;
 font-weight: 700;
    }
-  }
+  
    .db-price-two{
    	color: #8b8781;
 font-size: 15px;
    }
+
+.db-form-content{
+	padding:0 10px;
  input[type="submit"]{
  	margin-top: 9px;
 					min-height: 49px;
@@ -95,10 +100,11 @@ input[type="submit"]:hover {
 }
 input[type="text"]{
 padding:10px 0px 10px 15px;
+margin-top: 15px;
 			width: 250px;
 }
 
-
+}
     .dd-close{
     	width: 30px;
     	height: 30px;
@@ -329,6 +335,117 @@ input[type="text"]{
 		}
 		}
 	}
+}
+
+.window{ 
+	display: none;
+	position:absolute;
+	left:0;  
+	top:0;
+    // max-width: 388px;
+    //width: 958px;
+    display:none;
+    z-index:9998; 
+    background: #fff;
+    font-family: "pt-sans-caption";
+    .db-all{
+		    padding: 22px 28px 93px 26px;
+    
+
+	.db-window-img{
+	float:left;
+	margin: 19px auto;
+	}
+
+	.db-content-window{
+		float:right;
+		text-align: left;
+		    padding: 0 15px 22px 15px;
+		
+	}
+	.dd-close2{
+    	width: 30px;
+    	height: 30px;
+    	background:url(../img/kres.png) no-repeat center;
+    	position:absolute;
+    	top: -30px !important;
+    	right: -30px !important;
+    	cursor: pointer;
+    	transition: 0.5s;
+       
+    }
+    .dd-close2:hover{
+    	background:url(../img/kres2.png) no-repeat center;
+    	transition: 0.5s;
+    }
+    .db-h-content{
+    	padding: 10px 0 20px 0;
+   .db-h-one{
+   	color: #a16d1e;
+font-size: 15px;
+   }
+   .db-h-two{
+   	color: #121212;
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+   }
+   .db-price-content{
+		padding: 20px 0;
+   .db-price-one{
+	color: #121212;
+font-size: 22px;
+font-weight: 700;
+   }
+  }
+   .db-price-two{
+   	color: #8b8781;
+font-size: 15px;
+   }
+}
+.db-form-content{
+	text-align: left;
+	padding:0 0px;
+ input[type="submit"]{
+ 	margin-top: 9px;
+					min-height: 49px;
+					text-align: center;
+					font-size: 14px;
+					color:#121212;
+					font-family: "pt-sans-caption-bold";
+					text-transform: uppercase;
+					padding: 14px 0px;//59
+					border-bottom: 3px solid #9b6510;
+					background-color: #fab445 ;
+					box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+					-webkit-box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+				  	vertical-align: top;
+					width: 100%;
+				  	display: inline-block;
+				  	transition: all 0.5s;
+				  	-moz-transition: all 0.5s;
+				  	-webkit-transition: all 0.5s;
+				  		width: 280px;
+ }
+input[type="submit"]:hover {
+	border-bottom: 1px solid #9b6510;
+					color:#fff;				
+					background-color: #fab445 ;
+					box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+					-webkit-box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+					transition: all 0.5s;
+				  	-moz-transition: all 0.5s;
+				  	-webkit-transition: all 0.5s;
+				  		width: 280px;
+}
+input[type="text"]{
+padding:10px 0px 10px 15px;
+margin-top: 15px;
+				width: 280px;
+}
+
+}
+}
 }
 
 }

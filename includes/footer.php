@@ -43,6 +43,7 @@
 <a href="#thanks2" name="modal"></a>
 <div id="thanks2" class="window">
 <div class="dd-close2"></div>
+	<div class="db-all">
 	<div class="db-window-img"><img src="../img/db-socks.png" alt="image"></div>
 	<div class="db-content-window">
 		<div class="db-h-content">
@@ -64,4 +65,5 @@
 		
 		</div>
 	</div>
+</div>
 </div>
