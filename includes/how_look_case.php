@@ -5,7 +5,7 @@
 				<div class="dd-title">
 					<span>Как выглядит кейс?</span>
 				</div>
-				<img class="img-responsive" src="img/howlook.jpg" alt="">
+				<img class="img-responsive" src="img/howlook.png" alt="">
 			</div>
 			<div class="dd-look-txt dd-look-txt1">
 				<span>Качественно</span><br>

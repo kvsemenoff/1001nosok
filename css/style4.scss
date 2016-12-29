@@ -190,9 +190,11 @@
 }
 
 .dd-how-look-wrap{
-	background: #fff;
+	background: url(../img/big.jpg) no-repeat top center;
+	background-size:cover; 
 	padding-top: 65px;
-	padding-bottom: 153px;
+	// padding-bottom: 153px;
+	padding-bottom: 50px;
 	.dd-how-look{
 		max-width: 930px;
 		margin: 0 auto;
@@ -322,6 +324,9 @@
 			color: #777;
 			font-family: "pt-sans-caption";
 			line-height: 30px;
+			span{
+				font-weight: 700;
+			}
 		}
 	}
 }
@@ -336,7 +341,7 @@
 		.dd-title{
 			text-align: center;
 			color: #121212;
-			font-size: 20px;
+			font-size: 35px;
 			text-transform: uppercase;
 			font-family: "pt-sans-caption";
 			padding-bottom: 70px;
@@ -462,6 +467,7 @@
 		}
 	}
 	.dd-how-look-wrap{
+		padding-bottom: 153px;
 		.dd-how-look{
 			max-width: 930px;
 			margin: 0 auto;
@@ -550,9 +556,13 @@
 					float: right;
 					width: 417px;
 					position:relative;
+					// outline: 1px solid red;
+					height: 274px;
+					overflow: hidden;
 					img{
+						
 						position:absolute;
-						top: 82px;
+						bottom: 0px;
 					}
 				}
 			}
@@ -563,7 +573,7 @@
 	}
 
 	.dd-podarki-wrap{
-		padding-top: 100px;
+		padding-top: 60px;
 		.dd-title{
 			text-align: center;
 			margin-bottom: 50px;
