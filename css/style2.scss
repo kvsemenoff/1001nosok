@@ -104,8 +104,8 @@ input[type="text"]{
 }
 .db-all-container2{
 	background: url("../img/db-form2.png") no-repeat center center;
-	padding-bottom: 7px;
-	    padding-top: 0;
+margin-top:10px;
+
 }
 
 .db-footer-block{
@@ -167,7 +167,7 @@ input[type="text"]{
 @media only screen and (min-width : 992px) {
 	.db-all-container{
 		text-align: center;
-		padding-bottom:60px;
+		padding-bottom: 6px;
 
 		.db-input-one{
 			width: 100%;
@@ -233,11 +233,11 @@ input[type="text"]{
 }
 	}
 	.db-link-two{
-	
+		float:right;
 		margin-top:-15px;
 		ul{
 			padding-right: 69px;
-			padding-bottom: 25px;
+			
 		li{
 			padding-top:0;
 		display: inline-block;
