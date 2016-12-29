@@ -50,10 +50,18 @@
 		right: -23px;
 	}
 	.dd-phone{
-		font-family: "pt-sans-caption";
-		font-size: 24px;
-		text-transform: uppercase;
-		color: #121212;
+		transform: skew(-25deg);
+		background: #E5E5E5;
+		width: 247px;
+		margin: 0 auto;
+		span{
+			display: inline-block;
+			transform: skew( 25deg);
+			font-family: "pt-sans-caption";
+			font-size: 24px;
+			text-transform: uppercase;
+			color: #121212;
+		}
 	}
 	.dd-contacts{
 		li{
@@ -223,6 +231,7 @@
 	}
 }
 .dd-podarki-wrap{
+	padding-top: 25px;
 	padding-bottom: 38px;
 	.dd-title{
 		text-align: center;
@@ -321,6 +330,7 @@
 
 .dd-sertifikat{
 	.dd-content-sertifikat{
+		padding-top: 25px;
 		max-width: 980px;
 		margin: 0 auto;
 		.dd-title{
@@ -334,6 +344,60 @@
 		.dd-serificat-img{
 			text-align: center;
 			padding-bottom: 50px;
+		}
+	}
+}
+
+// Внутренняя
+
+.dd-section-other{
+	.dd-content-other{
+		max-width: 1105px;
+		margin: 0 auto;
+		padding-top: 45px;
+		// outline: 1px solid red;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 52px;
+		.dd-bradcrumps{
+			a{
+				text-decoration: underline;
+				color: #9d9c9c;
+				font-size: 13px;
+				font-family: "pt-sans-caption";
+			}
+			span{
+				color: #9d9c9c;
+				font-size: 13px;
+				font-family: "pt-sans-caption";
+			}
+		}
+		.dd-title{
+			h2{
+				text-transform: uppercase;
+				font-family: "pt-sans-caption-bold";
+				font-size: 40px;
+				color: #121212;
+				padding-top: 30px;
+				padding-bottom: 40px;
+			}
+		}
+		.dd-other-txt{
+			padding-bottom: 30px;
+			h3{
+				font-size: 24px;
+				color: #121212;
+				font-family: "pt-sans-caption-bold";
+				padding-bottom: 10px;
+			}
+			span{
+				font-family: "pt-sans-caption";
+				font-size: 14px;
+				color: #777;
+			}
+		}
+		.dd-im{
+			padding-bottom: 25px;
 		}
 	}
 }
@@ -381,6 +445,10 @@
 }
 
 @media only screen and (min-width : 768px) {
+
+
+
+
 	.dd-header-wrap{
 		.dd-big-h4-wrap{
 			.dd-big-h4{
@@ -429,10 +497,18 @@
 			}
 		}
 	}
-	
+
 }
 
 @media only screen and (min-width : 992px) {
+
+		.dd-section-other{
+		.dd-content-other{
+			padding-left: 0px;
+			padding-right: 0px;
+			
+		}
+	}
 
 	.dd-sertifikat{
 		padding-top: 144px;
@@ -538,7 +614,10 @@
 			.dd-phone{
 				float: left;
 				padding-left: 33px;
-				padding-top: 10px;
+				padding-top: 3px;
+				padding-bottom: 3px;
+				margin-top: 5px;
+				// padding-top: 10px;
 			}
 		}
 		.dd-right{
