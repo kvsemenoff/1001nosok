@@ -52,6 +52,7 @@ font-size: 40px;
 .form-wrap-red{
 	padding: 40px;
 }
+
 .db-all-container{
 	text-align: center;
 	padding:25px 0;
@@ -101,12 +102,19 @@ input[type="text"]{
 		}
 	}
 }
+.db-all-container2{
+	background: url("../img/db-form2.png") no-repeat center center;
+	padding-bottom: 7px;
+	    padding-top: 0;
+}
+
 .db-footer-block{
 	font-family:"pt-sans-caption";
 	background-color: #121212;
 	color:#fff;
 	text-align: center;
 	padding: 25px;
+
 	a{
 		color: #d6d6d6;
 		text-decoration: underline;

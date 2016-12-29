@@ -4,7 +4,7 @@
 
 //====ydobstvo
 .df-bg-noski{
-	background-image: url(/img/df-bg.jpg);
+	background-image: url("../img/df-bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
 	min-height: 400px;	
@@ -33,7 +33,7 @@
 				color:#2b2b2b;
 				display: block;
 				padding: 5px 0 5px 36px;
-				background-image: url(/img/df-minus.png);
+				background-image: url("../img/df-minus.png");
 				background-position: left center;
 				background-repeat: no-repeat;
 				margin-bottom: 9px;
@@ -44,7 +44,7 @@
 			span{				
 				color:#fcb446;				
 				padding: 5px 0 5px 30px;
-				background-image: url(/img/df-plus.png);
+				background-image: url("../img/df-plus.png");
 				background-position: left center;
 				background-repeat: no-repeat;				
 			}
@@ -70,10 +70,7 @@ a:active, a:focus{
 		margin: 25px 0 25px 0;//57
 		font-size: 30px;
 	}
-	.df-otz-tab{
-		// background-image: url(/img/df-bg-otz.png);
-		// background-repeat: repeat-x;
-		// background-position: center top 31px; 
+	.df-otz-tab{		
 		padding: 0 20px;
 		margin-bottom: 40px;
 		text-align: center;
@@ -86,16 +83,12 @@ a:active, a:focus{
 			border:4px solid #6d6d6d;
 			width: 68px;
 			height: 68px;
-			margin:0 20px 20px 0px;//115
-			// margin-bottom: 20px;
+			margin:0 20px 20px 0px;			
 			img{
 				width: 100%;
 				height: 100%;
 			}
-		}
-		a:last-child{
-			// margin-right: 0px;
-		}		
+		}				
 	}
 	.df-text{
 		font-family: "pt-sans-caption";
@@ -119,9 +112,7 @@ a:active, a:focus{
 
 //questions
 .df-bg-white{
-	background: #fff;
-	
-	// text-align: center;
+	background: #fff;	
 	margin: 0 auto;
 	.title{
 		color:#777777;
@@ -142,12 +133,11 @@ a:active, a:focus{
 		p{
 			font-size: 18px;
 			color:#e89f2c;
-			margin-bottom: 22px;
-			// padding-left: 65px;
+			margin-bottom: 22px;			
 			padding-top: 30px;
-			background-image: url(/img/df-otvet.png);
+			background-image: url("../img/df-otvet.png");
 			background-repeat: no-repeat;
-			background-position: top ; //left top
+			background-position: top ;
 			line-height: 22px;
 		}
 	}
@@ -169,7 +159,7 @@ a:active, a:focus{
 	}
 	.df-box-case{
 		display: inline-block;			
-		margin: 0 20px 47px 20px;
+		margin: 0 0px 47px 0px;
 		position: relative;
 		.df-span1{
 			color:#a16d1e;
@@ -187,14 +177,14 @@ a:active, a:focus{
 		.df-case{
 			background: #fff;			
 			font-family: "pt-sans-caption";
-			width: 320px;			
+			width: 320px;
 			padding-bottom: 19px;			
 			img{
 				text-align: center;
 				display: inline-block;
 			}
 			.df-vigodno{
-				background-image: url(/img/df-cool.png);
+				background-image: url("../img/df-cool.png");
 				background-repeat: no-repeat;
 				background-position: center center;
 				color:#797979;
@@ -229,7 +219,7 @@ a:active, a:focus{
 				    border: 2px solid #bebebe;
 				    background:none;
 				    margin-bottom: 11px;				 			    
-				}
+				}				
 				.checkbox-custom:hover{
 					 border: 2px solid #fcb446;
 				}				
@@ -237,17 +227,17 @@ a:active, a:focus{
 				.label {
 				    display: inline-block;
 				    vertical-align: top;
-				}				
+				}							
 				.checkbox:checked + .checkbox-custom::after {
 				    content: "";            
-				    display: block;          
+				    display: block; 				            
 				    position: absolute;   
 				    top: 0px;
 				    right: 0;
 				    bottom: 0;				   
 				    left: 0px;
 				    border:none;
-				    background-image: url(/img/df-galka.png);
+				    background-image: url("../img/df-galka.png");
 				    background-repeat: no-repeat;
 				    border: 2px solid #fcb446;		   
 				}
@@ -373,7 +363,7 @@ a:active, a:focus{
 			font-size: 40px;
 		}
 		.df-otz-tab{
-			background-image: url(/img/df-bg-otz.png);
+			background-image: url("../img/df-bg-otz.png");
 			background-repeat: repeat-x;
 			background-position: center top 34px; 
 			padding: 0 40px;
@@ -403,7 +393,7 @@ a:active, a:focus{
 			p{			
 				padding-left: 65px;
 				padding-top: 0px;
-				background-image: url(/img/df-otvet.png);
+				background-image: url("../img/df-otvet.png");
 				background-position: left top; 			
 			}
 		}
