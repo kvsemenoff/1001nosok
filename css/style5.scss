@@ -65,6 +65,7 @@ a:active, a:focus{
 }
 .df-ozivi{
 	.title{
+		font-family: "pt-sans-caption";
 		text-transform: uppercase;
 		text-align: center;
 		margin: 25px 0 25px 0;//57
@@ -102,6 +103,7 @@ a:active, a:focus{
 			margin-bottom: 9px;
 		}
 		p{
+			font-family: "pt-sans-caption";
 			font-size: 16px;
 			color:#121212;
 			line-height: 20px;
@@ -115,6 +117,7 @@ a:active, a:focus{
 	background: #fff;	
 	margin: 0 auto;
 	.title{
+		font-family: "pt-sans-caption";
 		color:#777777;
 		text-align: center;
 		margin: 25px 0 25px 0;
@@ -159,7 +162,7 @@ a:active, a:focus{
 	}
 	.df-box-case{
 		display: inline-block;			
-		margin: 0 0px 47px 0px;
+		margin: 0 0px 15px 0px;//47
 		position: relative;
 		.df-span1{
 			color:#a16d1e;
@@ -389,7 +392,7 @@ a:active, a:focus{
 		.df-text{
 			font-family: "pt-sans-caption";
 			padding: 0 114px;
-			margin-bottom: 25px;	
+			margin-bottom: 73px;	
 		}
 	}
 
@@ -412,8 +415,7 @@ a:active, a:focus{
 
 	//select your case
 	.df-bg-orange{
-		h2{
-			
+		h2{			
 			margin: 47px 59px 47px 0;
 		}
 		.df-box-case{					
