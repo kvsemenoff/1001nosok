@@ -40,14 +40,28 @@
 	</div>
 </div>
 <a href="#thanks" name="modal"></a>
+<a href="#thanks2" name="modal"></a>
 <div id="thanks2" class="window">
-<div class="dd-close"></div>
-	<div><img src="../img/db-socks.png" alt="image"></div>
+<div class="dd-close2"></div>
+	<div class="db-window-img"><img src="../img/db-socks.png" alt="image"></div>
 	<div class="db-content-window">
 		<div class="db-h-content">
-			<span>Кейс носков</span><br>
-			<span>"ХЛОПОК"</span>
-		</div>
 
+			<span class="db-h-one">Кейс носков</span><br>
+			<span class="db-h-two">"ХЛОПОК"</span>
+		</div>
+		<div class="db-price-content">
+			<span class="db-price-one">Цена: 1 799 р.</span><br>
+			<span class="db-price-two">50 пар в кейсе</span>
+		</div>
+		<div class="db-form-content">
+			<form action="#" class="form1" method="post">
+				<input type="text" name="uname" placeholder="Ваше имя"><br>
+				<input type="text" name="phone" placeholder="Номер телефона" class="phone"><br>
+				<input type="submit" name="submit" value="100% ХЛОПОК ЗАКАЗАТЬ">
+			</form>
+
+		
+		</div>
 	</div>
 </div>

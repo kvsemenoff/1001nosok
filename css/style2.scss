@@ -16,8 +16,89 @@ font-size: 40px;
     background: #fff;
     font-family: "pt-sans-caption";
 
+	.db-window-img{
 	
-   
+	margin: 0 auto;
+	}
+
+	.db-content-window{
+		text-align: center;
+		padding:0 15px 15px 15px;
+
+	}
+	.dd-close2{
+    	width: 30px;
+    	height: 30px;
+    	background:url(../img/kres.png) no-repeat center;
+    	position:absolute;
+    	    top: 0px;
+    right: 0px;
+    	cursor: pointer;
+    	transition: 0.5s;
+    
+    }
+    .dd-close2:hover{
+    	background:url(../img/kres2.png) no-repeat center;
+    	transition: 0.5s;
+    }
+    .db-h-content{
+    	padding: 10px 0;
+   .db-h-one{
+   	color: #a16d1e;
+font-size: 15px;
+   }
+   .db-h-two{
+   	color: #121212;
+font-size: 30px;
+font-weight: 700;
+text-transform: uppercase;
+   }
+   .db-price-one{
+	color: #121212;
+font-size: 22px;
+font-weight: 700;
+   }
+  }
+   .db-price-two{
+   	color: #8b8781;
+font-size: 15px;
+   }
+ input[type="submit"]{
+ 	margin-top: 9px;
+					min-height: 49px;
+					text-align: center;
+					font-size: 14px;
+					color:#121212;
+					font-family: "pt-sans-caption-bold";
+					text-transform: uppercase;
+					padding: 14px 0px;//59
+					border-bottom: 3px solid #9b6510;
+					background-color: #fab445 ;
+					box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+					-webkit-box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+				  	vertical-align: top;
+					width: 100%;
+				  	display: inline-block;
+				  	transition: all 0.5s;
+				  	-moz-transition: all 0.5s;
+				  	-webkit-transition: all 0.5s;
+ }
+input[type="submit"]:hover {
+	border-bottom: 1px solid #9b6510;
+					color:#fff;				
+					background-color: #fab445 ;
+					box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+					-webkit-box-shadow: 0 3px 0 #9b6510, inset 0 22px 0 rgba(255, 255, 255, 0.24);
+					transition: all 0.5s;
+				  	-moz-transition: all 0.5s;
+				  	-webkit-transition: all 0.5s;
+}
+input[type="text"]{
+padding:10px 0px 10px 15px;
+			width: 250px;
+}
+
+
     .dd-close{
     	width: 30px;
     	height: 30px;
@@ -61,6 +142,7 @@ font-size: 40px;
 	font-family: "pt-sans-caption";
 	font-size:20px;
 	width: 100%;
+	
 
 	.db-header{
 		color:#fff;	

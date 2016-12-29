@@ -177,7 +177,7 @@ a:active, a:focus{
 		.df-case{
 			background: #fff;			
 			font-family: "pt-sans-caption";
-			width: 320px;
+			width: 280px;
 			padding-bottom: 19px;			
 			img{
 				text-align: center;
@@ -216,19 +216,20 @@ a:active, a:focus{
 				    position: relative;      
 				    width: 19px;             
 				    height: 19px;          
-				    border: 2px solid #bebebe;
-				    background:none;
-				    margin-bottom: 11px;				 			    
+				    // border: 2px solid #bebebe;
+				    background-image: url("../img/df-nogalka.png");				    
+				    background-repeat: no-repeat;
+				    background-position: center center; 				   
+				    margin-bottom: 11px;
+				    z-index: 1;				 			    
 				}				
-				.checkbox-custom:hover{
-					 border: 2px solid #fcb446;
-				}				
+								
 				.checkbox-custom,
 				.label {
 				    display: inline-block;
 				    vertical-align: top;
-				}							
-				.checkbox:checked + .checkbox-custom::after {
+				}										
+				.checkbox:checked + .checkbox-custom::before {					
 				    content: "";            
 				    display: block; 				            
 				    position: absolute;   
@@ -237,12 +238,14 @@ a:active, a:focus{
 				    bottom: 0;				   
 				    left: 0px;
 				    border:none;
-				    background-image: url("../img/df-galka.png");
+				    background-image: url("../img/df-galka2.png");				    
 				    background-repeat: no-repeat;
-				    border: 2px solid #fcb446;		   
+				   	border:none;				       	
 				}
-
-
+				.checkbox-custom:hover{
+					background-image: url("../img/df-hover.png");				    
+				    background-repeat: no-repeat;
+				}
 				.df-price{
 					font-size: 15px;
 					color:#121212;
@@ -294,7 +297,7 @@ a:active, a:focus{
 
 .df-bg-white{
 	.df-socks{
-		padding: 0 15px 80px 30px;		
+		padding: 30px 15px 80px 30px;		
 		h4{
 			font-size: 24px;
 			color: #121212;
@@ -330,6 +333,13 @@ a:active, a:focus{
 			margin-bottom: 520px ;// 700 	
 		}
 	}	
+	.df-bg-orange{
+		.df-box-case{
+			.df-case{			
+				width: 320px;
+			}
+		}
+	}
 }
 
 @media only screen and (min-width : 480px) {
