@@ -1,4 +1,5 @@
-<div class="container df-bg">		
+<section class="df-bg">
+<div class="container">		
 	<div class="row">
 		<div class="col-md-12">			
 			<div class="df-ozivi">
@@ -45,6 +46,7 @@
 		</div>
 	</div>
 </div>
+</section>
 <script>
 $('#df-tab1').css('display','block');
 	$('.df-otz-tab a').click(function(e) {
