@@ -55,7 +55,7 @@ font-size: 40px;
 
 .db-all-container{
 	text-align: center;
-	padding:25px 0;
+	padding:0 0 25px 0;
 	background: url("../img/db-form.png") no-repeat center center;
 	background-size: cover;
 	font-family: "pt-sans-caption";
@@ -105,6 +105,7 @@ input[type="text"]{
 .db-all-container2{
 	background: url("../img/db-form2.png") no-repeat center center;
 margin-top:10px;
+background-size: cover;
 
 }
 
@@ -167,7 +168,7 @@ input[type="text"]{
 @media only screen and (min-width : 992px) {
 	.db-all-container{
 		text-align: center;
-		padding-bottom: 6px;
+		padding-bottom: 17px;
 
 		.db-input-one{
 			width: 100%;
