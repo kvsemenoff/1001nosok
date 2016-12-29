@@ -251,11 +251,100 @@
 		}
 	}
 }
+
+// Доставка и оплата
+
+.dd-dostavka{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	.my-container2{
+		max-width: 1100px;
+		margin: 0 auto;
+		// outline: 1px solid blue;
+		.dd-dostavka-content{
+			max-width: 920px;
+			margin: 0 auto;
+			// padding-bottom: 50px;
+			// outline: 1px solid red;
+			.dd-title{
+				text-align: center;
+				span{
+					font-size: 40px;
+					text-transform: uppercase;
+					font-family: "pt-sans-caption";
+					color: #121212;
+				}
+			}
+			.dd-box{
+				text-align: center;
+				img{
+					margin: 0 auto;
+				}
+				.dd-box-txt{
+					text-align: center;
+					span:first-child{
+						font-size: 26px;
+						font-family: "pt-sans-caption-bold";
+						color: #777;
+					}
+					span:last-child{
+						font-size: 14px;
+						color: #777;
+						font-family: "pt-sans-caption";
+					}
+				}
+			}
+		}
+	}
+	.dd-big-txt{
+		text-align: center;
+		padding-top: 24px;
+		max-width: 854px;
+		margin: 0 auto;
+		span{
+			font-size: 14px;
+			color: #777;
+			font-family: "pt-sans-caption";
+			line-height: 30px;
+		}
+	}
+}
+
+// Мы и наши фабрики
+
+.dd-sertifikat{
+	.dd-content-sertifikat{
+		max-width: 980px;
+		margin: 0 auto;
+		.dd-title{
+			text-align: center;
+			color: #121212;
+			font-size: 20px;
+			text-transform: uppercase;
+			font-family: "pt-sans-caption";
+			padding-bottom: 70px;
+		}
+		.dd-serificat-img{
+			text-align: center;
+			padding-bottom: 50px;
+		}
+	}
+}
+
 @media only screen and (min-width : 320px) {
 
 }
 
 @media only screen and (min-width : 480px) {
+	
+	.dd-sertifikat{
+		.dd-content-sertifikat{
+			.dd-title{
+				font-size: 40px;
+			}
+		}
+	}
+
 	.dd-header-wrap{
 		.dd-big-h4-wrap{
 			margin-top: 70px;
@@ -283,9 +372,6 @@
 }
 
 @media only screen and (min-width : 768px) {
-
-
-
 	.dd-header-wrap{
 		.dd-big-h4-wrap{
 			.dd-big-h4{
@@ -334,15 +420,82 @@
 			}
 		}
 	}
+	
 }
 
 @media only screen and (min-width : 992px) {
-		.dd-podarki-wrap{
+
+	.dd-sertifikat{
+		padding-top: 144px;
+		.dd-content-sertifikat{
+			// padding-left: 10px;
+			// padding-right: 10px;
+			.dd-title{
+				font-size: 40px;
+				padding-bottom: 50px;
+			}
+			.dd-images{
+				padding-left: 20px;
+				padding-right: 20px;
+			.dd-serificat-img{
+				text-align: center;
+				float: left;
+				padding-bottom: 50px;
+			}
+			.dd-serificat-img2{
+				float: right;
+			}
+			.dd-serificat-img1{
+				padding-left: 78px;
+			}
+		}
+	}
+}
+
+.dd-dostavka{
+	padding-top: 138px;
+
+	.my-container2{
+		border-bottom:2px solid #7F7F7F;
+		.dd-dostavka-content{
+			position:relative;
+			.dd-title{
+				padding-bottom: 42px;
+			}
+			.dd-box1{
+				float: left;
+				width: 280px;
+			}
+			.dd-box2{
+				float: right;
+				width: 417px;
+				position:relative;
+				img{
+					position:absolute;
+					top: 81px;
+				}
+			}
+		}
+		.dd-big-txt{
+			padding-top: 24px;
+		}
+			// .dd-line{
+			// 	outline: 1px solid red;
+			// 	position:absolute;
+			// 	background: url(../img/line.jpg) no-repeat center; 
+			// 	width: 1100px;
+			// 	height: 2px;
+
+			// }
+		}
+	}
+
+	.dd-podarki-wrap{
 		.dd-title{
 			text-align: center;
 			margin-bottom: 50px;
 			span{
-			
+
 			}
 		}
 		.dd-podarki-content{
