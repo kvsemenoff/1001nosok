@@ -1,22 +1,28 @@
-<section class="dd-header-wrap">
+<section class="dd-header-wrap dd-header-wrap2">
 	<div class="my-container">
-		<div class="dd-left">
-			<a href="#">
-				<div class="dd-logo">
-					<h4>1001NOSOK.RU</h4>
+		<div class="dd-header-top">
+			<div class="dd-left">
+				<a href="#">
+					<div class="dd-logo">
+						<h4>1001NOSOK.RU</h4>
+					</div>
+				</a>
+				<div class="dd-phone">
+					<span>8 (499) 322-70-17</span>
 				</div>
-			</a>
-			<div class="dd-phone">
-				<span>8 (499) 322-70-17</span>
+			</div>
+			<div class="dd-right">
+				<ul class="dd-contacts">
+					<li ><a href="#">Доставка и гарантия</a></li>
+					<li class="dd-padding-right"><a href="#">Контакты</a></li>
+				</ul>
 			</div>
 		</div>
-		<div class="dd-right">
-			<ul class="dd-contacts">
-				<li ><a href="#">Доставка и гарантия</a></li>
-				<li class="dd-padding-right"><a href="#">Контакты</a></li>
-			</ul>
-		</div>
 		<div class="clearfix"></div>
+	</div>
+</section>
+<section class="dd-header-wrap">
+	<div class="my-container">
 		<div class="dd-big-h4-wrap">
 			<div class="dd-big-h4">
 				<span>Твой кейс с носками</span>
@@ -82,17 +88,17 @@
 
 	function timer()
 	{
-	  count=count-1;
-	  if (count <= 9)
-	  {
-	  	count = '0'+count;	
-	  }
-	  if (count <= 0)
-	  {
-	  	count=60;
-	     
-	  }
-	  $("#dd-sec").html(count);
+		count=count-1;
+		if (count <= 9)
+		{
+			count = '0'+count;	
+		}
+		if (count <= 0)
+		{
+			count=60;
+
+		}
+		$("#dd-sec").html(count);
 
 	}
 
