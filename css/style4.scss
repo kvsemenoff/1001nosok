@@ -14,8 +14,9 @@
 }
 .dd-header-wrap{
 	padding-top: 16px;
-	padding-bottom: 70px;
+	padding-bottom: 0px;
 	text-align:center;
+	background: #F2F2F2;
 	h4{
 		font-family: "pt-sans-caption-bold";
 		font-size: 24px;
@@ -258,6 +259,7 @@
 .dd-dostavka{
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background: #F2F2F2;
 	.my-container2{
 		max-width: 1100px;
 		margin: 0 auto;
@@ -472,7 +474,7 @@
 					position:relative;
 					img{
 						position:absolute;
-						top: 81px;
+						top: 82px;
 					}
 				}
 			}
