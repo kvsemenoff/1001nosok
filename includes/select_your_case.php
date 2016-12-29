@@ -28,7 +28,7 @@
 								<span class="label"></span>
 							</label>
 							<span class="df-price">2 499 р.<span>— 100 пар в кейсе </span></span><br>
-							<a href="#" class="df-link">100% хлопок заказать</a>
+							<a href="#thanks2"  name="modal" class="df-link">100% хлопок заказать</a>
 						</div>						
 					</div>
 				</div>				
@@ -59,7 +59,7 @@
 								<span class="label"></span>
 							</label>
 							<span class="df-price">2 499 р.<span>— 100 пар в кейсе </span></span><br>
-							<a href="#" class="df-link">Бамбуковые носки заказать</a>
+							<a href="#thanks2"  name="modal" class="df-link">Бамбуковые носки заказать</a>
 						</div>						
 					</div>
 				</div>
@@ -89,7 +89,7 @@
 								<span class="label"></span>
 							</label>
 							<span class="df-price">2 499 р.<span>— 100 пар в кейсе </span></span><br>
-							<a href="#" class="df-link">Хлопок - Люкс заказать</a>
+							<a href="#thanks2"  name="modal" class="df-link">Хлопок - Люкс заказать</a>
 						</div>						
 					</div>
 				</div>
@@ -119,7 +119,7 @@
 								<span class="label"></span>
 							</label>
 							<span class="df-price">2 499 р.<span>— 100 пар в кейсе </span></span><br>
-							<a href="#" class="df-link">Бамбук MIX заказать</a>
+							<a href="#thanks2"  name="modal" class="df-link">Бамбук MIX заказать</a>
 						</div>
 						
 					</div>
@@ -151,7 +151,7 @@
 								<span class="label"></span>
 							</label>
 							<span class="df-price">2 499 р.<span>— 100 пар в кейсе </span></span><br>
-								<a href="#" class="df-link">Носки ХБ MIX заказать</a>
+								<a href="#thanks2"  name="modal" class="df-link">Носки ХБ MIX заказать</a>
 						</div>
 					
 					</div>
@@ -183,7 +183,7 @@
 								<span class="label"></span>
 							</label>
 							<span class="df-price">5 499 р.<span>— 100 пар в кейсе </span></span><br>
-							<a href="#" class="df-link">Шерсть заказать</a>
+							<a href="#thanks2"  name="modal" class="df-link">Шерсть заказать</a>
 						</div>
 					
 					</div>
