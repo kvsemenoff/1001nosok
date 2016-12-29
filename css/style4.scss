@@ -12,10 +12,15 @@
 	margin: 0 auto;
 	position:relative;
 }
+.dd-header-wrap2{
+	background: #fff !important;
+	padding-bottom: 16px !important;
+}
 .dd-header-wrap{
 	padding-top: 16px;
-	padding-bottom: 70px;
+	padding-bottom: 0px;
 	text-align:center;
+	background: #F2F2F2;
 	h4{
 		font-family: "pt-sans-caption-bold";
 		font-size: 24px;
@@ -218,6 +223,7 @@
 	}
 }
 .dd-podarki-wrap{
+	padding-bottom: 38px;
 	.dd-title{
 		text-align: center;
 		margin-bottom: 50px;
@@ -257,6 +263,7 @@
 .dd-dostavka{
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background: #F2F2F2;
 	.my-container2{
 		max-width: 1100px;
 		margin: 0 auto;
@@ -347,7 +354,7 @@
 
 	.dd-header-wrap{
 		.dd-big-h4-wrap{
-			margin-top: 70px;
+			margin-top: 38px !important;
 			.dd-big-h4{
 				transform: skew(-25deg);
 				padding-left: 30px;
@@ -362,6 +369,8 @@
 		}
 		.dd-big-h4-wrap2{
 			.dd-big-h4-2{
+				width: 300px;
+				margin: 0 auto;
 				transform: skew(-25deg);
 				span{
 					transform: skew(25deg);
@@ -437,60 +446,52 @@
 			.dd-images{
 				padding-left: 20px;
 				padding-right: 20px;
-			.dd-serificat-img{
-				text-align: center;
-				float: left;
-				padding-bottom: 50px;
-			}
-			.dd-serificat-img2{
-				float: right;
-			}
-			.dd-serificat-img1{
-				padding-left: 78px;
-			}
-		}
-	}
-}
-
-.dd-dostavka{
-	padding-top: 138px;
-
-	.my-container2{
-		border-bottom:2px solid #7F7F7F;
-		.dd-dostavka-content{
-			position:relative;
-			.dd-title{
-				padding-bottom: 42px;
-			}
-			.dd-box1{
-				float: left;
-				width: 280px;
-			}
-			.dd-box2{
-				float: right;
-				width: 417px;
-				position:relative;
-				img{
-					position:absolute;
-					top: 81px;
+				.dd-serificat-img{
+					text-align: center;
+					float: left;
+					padding-bottom: 50px;
+				}
+				.dd-serificat-img2{
+					float: right;
+				}
+				.dd-serificat-img1{
+					padding-left: 78px;
 				}
 			}
 		}
-		.dd-big-txt{
-			padding-top: 24px;
-		}
-			// .dd-line{
-			// 	outline: 1px solid red;
-			// 	position:absolute;
-			// 	background: url(../img/line.jpg) no-repeat center; 
-			// 	width: 1100px;
-			// 	height: 2px;
+	}
 
-			// }
+	.dd-dostavka{
+		padding-top: 33px;
+		.my-container2{
+			border-bottom:2px solid #7F7F7F;
+			.dd-dostavka-content{
+				position:relative;
+				.dd-title{
+					padding-bottom: 42px;
+				}
+				.dd-box1{
+					float: left;
+					width: 280px;
+				}
+				.dd-box2{
+					float: right;
+					width: 417px;
+					position:relative;
+					img{
+						position:absolute;
+						top: 82px;
+					}
+				}
+			}
+			.dd-big-txt{
+				padding-top: 24px;
+			}
 		}
 	}
 
 	.dd-podarki-wrap{
+		padding-top: 100px;
 		.dd-title{
 			text-align: center;
 			margin-bottom: 50px;
@@ -583,7 +584,7 @@
 		.dd-timer-all-wrap{
 			position:absolute;
 			right: 0;
-			top: 255px;
+			top: 128px;
 		}
 	}
 }
