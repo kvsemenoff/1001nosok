@@ -2,21 +2,27 @@
 	<div class="db-tel">
 		8 (499) 322-70-17		
 	</div>
-	<div class="db-link">
+	<div class="db-link-one">
 		<ul>
 			<li><a href="#">Кейс ХБ</a></li>
 			<li><a href="#">Кейс "Бамбук"</a></li>
 			<li><a href="#">Шерстяные в кейсе</a></li>
 			<li><a href="#">Кейс с носками</a></li>
 			<li><a href="#">Кейс на год</a></li>
-			<li><a href="#">Кейс "Микс"</a></li>
-			<li><a href="#">От лучших поставщиков</a></li>
-			<li><a href="#">Разнообрезие</a></li>
+			<li><a href="#">Кейс "Микс"</a></li> 
+		</ul>
+		</div>
+		<div class="clearfix"></div>	
+		<div class="db-link-two">
+		<ul>
 			<li><a href="#">Оптом в кейсах</a></li>
+			<li><a href="#">Разнообрезие</a></li>
+			<li><a href="#">От лучших поставщиков</a></li>
 		</ul>
 	</div>
-	<div class="clearfix"></div>
-</div>
+	</div>
+
+
 <div id="mask"></div>
 <div id="thanks" class="window">
 	<div class="dd-form-wrap">
