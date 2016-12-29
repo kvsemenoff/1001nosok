@@ -45,7 +45,8 @@
 	<div><img src="../img/db-socks.png" alt="image"></div>
 	<div class="db-content-window">
 		<div class="db-h-content">
-			<span>Кейс носков</span>
+			<span>Кейс носков</span><br>
+			<span>"ХЛОПОК"</span>
 		</div>
 
 	</div>
