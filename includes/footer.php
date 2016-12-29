@@ -1,4 +1,5 @@
 <div class="db-footer-block">
+<div class="db-footer-all">
 	<div class="db-tel">
 		8 (499) 322-70-17		
 	</div>
@@ -21,7 +22,7 @@
 		</ul>
 	</div>
 	</div>
-
+</div>
 
 <div id="mask"></div>
 <div id="thanks" class="window">

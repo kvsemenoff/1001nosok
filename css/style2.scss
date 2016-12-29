@@ -329,7 +329,12 @@ input[type="text"]{
 	background-color: #121212;
 	color:#fff;
 	text-align: left;
-	
+
+	.db-footer-all{
+		max-width:1100px;
+		margin:0 auto;
+
+	}
 	a{
 		color: #d6d6d6;
 		text-decoration: underline;
@@ -347,7 +352,7 @@ input[type="text"]{
 
 			ul{
 				
-				padding-right: 74px;
+				padding-right: 0px;
 			
 		li{
 			padding-top:0;
@@ -361,7 +366,7 @@ input[type="text"]{
 		float:right;
 		margin-top:-15px;
 		ul{
-			padding-right: 69px;
+			padding-right: 0px;
 			
 		li{
 			padding-top:0;
