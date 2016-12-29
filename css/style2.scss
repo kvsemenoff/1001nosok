@@ -31,8 +31,8 @@ font-size: 40px;
     	height: 30px;
     	background:url(../img/kres.png) no-repeat center;
     	position:absolute;
-    	    top: 0px;
-    right: 17px;
+    	 top: 0px;
+    	right: 5px;
     	cursor: pointer;
     	transition: 0.5s;
        
@@ -68,6 +68,7 @@ font-size: 15px;
 
 .db-form-content{
 	padding:0 10px;
+
  input[type="submit"]{
  	margin-top: 9px;
 					min-height: 49px;
@@ -101,6 +102,7 @@ input[type="submit"]:hover {
 input[type="text"]{
 padding:10px 0px 10px 15px;
 margin-top: 15px;
+border: 1px solid #929292;
 			width: 250px;
 }
 
@@ -336,7 +338,21 @@ input[type="text"]{
 		}
 	}
 }
-
+.dd-close2{
+    	width: 30px;
+    	height: 30px;
+    	background:url(../img/kres.png) no-repeat center;
+    	position:absolute;
+    	top: -30px !important;
+    	right: -30px !important;
+    	cursor: pointer;
+    	transition: 0.5s;
+       
+    }
+    .dd-close2:hover{
+    	background:url(../img/kres2.png) no-repeat center;
+    	transition: 0.5s;
+    }
 .window{ 
 	display: none;
 	position:absolute;
@@ -363,21 +379,7 @@ input[type="text"]{
 		    padding: 0 15px 22px 15px;
 		
 	}
-	.dd-close2{
-    	width: 30px;
-    	height: 30px;
-    	background:url(../img/kres.png) no-repeat center;
-    	position:absolute;
-    	top: -30px !important;
-    	right: -30px !important;
-    	cursor: pointer;
-    	transition: 0.5s;
-       
-    }
-    .dd-close2:hover{
-    	background:url(../img/kres2.png) no-repeat center;
-    	transition: 0.5s;
-    }
+	
     .db-h-content{
     	padding: 10px 0 20px 0;
    .db-h-one{
@@ -405,9 +407,10 @@ font-size: 15px;
 }
 .db-form-content{
 	text-align: left;
-	padding:0 0px;
+	padding-top:17px;
+
  input[type="submit"]{
- 	margin-top: 9px;
+ 	margin-top: 19px;
 					min-height: 49px;
 					text-align: center;
 					font-size: 14px;
@@ -440,7 +443,7 @@ input[type="submit"]:hover {
 }
 input[type="text"]{
 padding:10px 0px 10px 15px;
-margin-top: 15px;
+margin-top: 20px;
 				width: 280px;
 }
 

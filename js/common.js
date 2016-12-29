@@ -20,7 +20,11 @@ $(document).ready(function(){
         $('#mask, .window').hide();
         $('.window').hide();
     }); 
-
+      $('.window .dd-close2').click(function (e) {
+        e.preventDefault();
+        $('#mask, .window').hide();
+        $('.window').hide();
+    }); 
     $('#mask, .an-exit__krest').click(function () {
         $('#mask').hide();
         $('.window').hide();
@@ -52,7 +56,7 @@ $(document).ready(function(){
   });
 
 
-    var owl = $(".owl-carusel-photos");
+ var owl = $(".owl-carusel-photos");
 
     owl.owlCarousel({
 

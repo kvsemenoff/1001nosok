@@ -17,7 +17,7 @@
 		<ul>
 			<li><a href="#">Оптом в кейсах</a></li>
 			<li><a href="#">Разнообрезие</a></li>
-			<li><a href="#thanks2"  name="modal">От лучших поставщиков</a></li>
+			<li><a href="#">От лучших поставщиков</a></li>
 		</ul>
 	</div>
 	</div>
@@ -60,9 +60,7 @@
 				<input type="text" name="uname" placeholder="Ваше имя"><br>
 				<input type="text" name="phone" placeholder="Номер телефона" class="phone"><br>
 				<input type="submit" name="submit" value="100% ХЛОПОК ЗАКАЗАТЬ">
-			</form>
-
-		
+			</form>		
 		</div>
 	</div>
 </div>
