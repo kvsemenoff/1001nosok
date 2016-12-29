@@ -149,7 +149,7 @@ a:active, a:focus{
 //========select-your-case
 .df-bg-orange{
 	background: #fcb446;
-	padding-bottom: 33px;
+	padding-bottom: 0px;
 	text-align: center;
 	margin: 0 auto;
 	h2{
@@ -415,6 +415,7 @@ a:active, a:focus{
 
 	//select your case
 	.df-bg-orange{
+		padding-bottom: 33px;
 		h2{			
 			margin: 47px 59px 47px 0;
 		}
