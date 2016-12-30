@@ -19,7 +19,7 @@ $(document).ready(function(){
     
 
      $('input[type=radio]').change(function() {
-       // $(this).parent().parent().find('.hprice').html($(this).parent().next('.df-price').find('.df-price-d').html());
+      
         var price = $(this).parent().next('.df-price').find('.df-price-d').html();
         $(this).parent().parent().parent().find('.hprice').val(price);
 
