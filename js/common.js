@@ -35,7 +35,7 @@ $(document).ready(function(){
             $(this).parent().parent().parent().find('.hprice').val(price);
 
             var pare = $(this).parent().next('.df-price').find('.df-cur-pare').html();
-            $(this).parent().parent().parent().find('.hpare').val(pare.substr(2));
+            $(this).parent().parent().parent().find('.hpare').val(pare);
         }
     });
 
@@ -196,7 +196,7 @@ $(document).ready(function(){
         $('input[type="text"]').removeClass("error-input");
         $("input[type=text], textarea").val("");
         $('.window').hide();
-        $('a[href=#thanks]').trigger('click');
+        location = "thanks.php";
     };
 
 });

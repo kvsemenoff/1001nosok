@@ -204,7 +204,7 @@
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price-d">5 399 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price">5 399 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
 						<a href="#thanks2" name="tovar" class="df-link">Шерсть заказать</a>
 					</div>
 					

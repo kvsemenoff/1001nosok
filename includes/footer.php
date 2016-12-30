@@ -60,7 +60,7 @@
 			<form action="thanks.php" method="post" class="form1">
 				<input type="text" name="uname" placeholder="Ваше имя"><br>
 				<input type="text" name="phone" placeholder="Номер телефона" class="phone"><br>
-				<input type="submit" name="submit" value="100% ХЛОПОК ЗАКАЗАТЬ">
+				<input type="submit" name="submit" value="ЗАКАЗАТЬ">
 			</form>		
 		</div>
 	</div>
