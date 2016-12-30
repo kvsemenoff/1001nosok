@@ -45,16 +45,16 @@
 <div id="thanks2" class="window">
 <div class="dd-close2"></div>
 	<div class="db-all">
-	<div class="db-window-img"><img src="../img/db-socks.png" alt="image"></div>
+	<div class="db-window-img"><!-- <img src="../img/db-socks.png" alt="image"> --></div>
 	<div class="db-content-window">
 		<div class="db-h-content">
 
 			<span class="db-h-one">Кейс носков</span><br>
-			<span class="db-h-two">"ХЛОПОК"</span>
+			<span class="db-h-two"><!-- "ХЛОПОК1" --></span>
 		</div>
 		<div class="db-price-content">
 			<span class="db-price-one">Цена: 1 799 р.</span><br>
-			<span class="db-price-two">50 пар в кейсе</span>
+			<span class="db-price-two"><!-- 50 пар в кейсе --></span>
 		</div>
 		<div class="db-form-content">
 			<form action="thanks.php" method="post">
