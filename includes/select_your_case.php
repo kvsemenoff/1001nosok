@@ -11,25 +11,27 @@
 					</div>
 					<span class="df-vigodno">Выгодно!</span>
 					<span class="df-chose">Выбери свой кейс</span>
+					<input type="hidden" class="hprice" value="">
+					<input type="hidden" class="hpare" value="">
 					<div class="df-inputs">
 						<label>
-							<input class="checkbox" type="radio" name="checkbox1">
+							<input class="checkbox" type="radio" name="checkbox1" value="">
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">1 399 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">1 399 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox1" checked>
+							<input class="checkbox" type="radio" name="checkbox1" value="" checked>
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">1 799 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">1 799 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox1">
+							<input class="checkbox" type="radio" name="checkbox1" value="">
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">2 499 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">2 499 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
 						<a href="#thanks2"  name="tovar" class="df-link">100% хлопок заказать</a>
 					</div>						
 				</div>
@@ -44,26 +46,28 @@
 					</div>
 					<span class="df-vigodno">Бизнес класс!</span>
 					<span class="df-chose">Выбери свой кейс</span>
+					<input type="hidden" class="hprice" value="">
+					<input type="hidden" class="hpare" value="">
 					<div class="df-inputs">
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox2" checked>
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">1 799 р.</span><span>— 30 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">1 799 р.</span><span>— 30 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test" >
+							<input class="checkbox" type="radio" name="checkbox2" value="">
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">2 499 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">2 499 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox2" value="">
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">3 999 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
-						<a href="#thanks2"  name="modal" class="df-link">Бамбуковые носки заказать</a>
+						<span class="df-price"><span class="df-price-d">3 999 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
+						<a href="#thanks2" name="tovar" class="df-link">Бамбуковые носки заказать</a>
 					</div>						
 				</div>
 			</div>
@@ -76,26 +80,28 @@
 					</div>
 					<span class="df-vigodno">Премиум- класс</span>
 					<span class="df-chose df-tovar-name">Выбери свой кейс</span>
+					<input type="hidden" class="hprice" value="">
+					<input type="hidden" class="hpare" value="">
 					<div class="df-inputs">
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox3" checked>
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">1 999 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">1 999 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test" >
+							<input class="checkbox" type="radio" name="checkbox3" >
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">2 999 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">2 999 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox3">
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">4 999 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
-						<a href="#thanks2"  name="modal" class="df-link">Хлопок - Люкс заказать</a>
+						<span class="df-price"><span class="df-price-d">4 999 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
+						<a href="#thanks2" name="tovar" class="df-link">Хлопок - Люкс заказать</a>
 					</div>						
 				</div>
 			</div>
@@ -108,26 +114,28 @@
 					</div>
 					<span class="df-vigodno">Выгодно!</span>
 					<span class="df-chose">Выбери свой кейс</span>
+					<input type="hidden" class="hprice" value="">
+					<input type="hidden" class="hpare" value="">
 					<div class="df-inputs">
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox4" checked>
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">1 799 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">1 799 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test" >
+							<input class="checkbox" type="radio" name="checkbox4" >
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">2 499 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">2 499 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox4">
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">3 999 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
-						<a href="#thanks2"  name="modal" class="df-link">Бамбук MIX заказать</a>
+						<span class="df-price"><span class="df-price-d">3 999 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
+						<a href="#thanks2" name="tovar" class="df-link">Бамбук MIX заказать</a>
 					</div>
 
 				</div>
@@ -141,26 +149,28 @@
 					</div>
 					<span class="df-vigodno">Комфортно!</span>
 					<span class="df-chose">Выбери свой кейс</span>
+					<input type="hidden" class="hprice" value="">
+					<input type="hidden" class="hpare" value="">
 					<div class="df-inputs">
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox5" checked>
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">1 499 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">1 499 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test" >
+							<input class="checkbox" type="radio" name="checkbox5" >
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">1 899 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">1 899 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox5">
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">2 799 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
-						<a href="#thanks2"  name="modal" class="df-link">Носки ХБ MIX заказать</a>
+						<span class="df-price"><span class="df-price-d">2 799 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
+						<a href="#thanks2" name="tovar" class="df-link">Носки ХБ MIX заказать</a>
 					</div>
 					
 				</div>
@@ -174,26 +184,28 @@
 					</div>
 					<span class="df-vigodno">идеально для зимы!</span>
 					<span class="df-chose">Выбери свой кейс</span>
+					<input type="hidden" class="hprice" value="">
+					<input type="hidden" class="hpare" value="">
 					<div class="df-inputs">
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox6" checked>
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">2 299 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">2 299 р.</span><span class="df-cur-pare">— 30 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test" >
+							<input class="checkbox" type="radio" name="checkbox6" >
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">3 199 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
+						<span class="df-price"><span class="df-price-d">3 199 р.</span><span class="df-cur-pare">— 50 пар в кейсе </span></span><br>
 						<label>
-							<input class="checkbox" type="radio" name="checkbox-test">
+							<input class="checkbox" type="radio" name="checkbox6">
 							<span class="checkbox-custom"></span>
 							<span class="label"></span>
 						</label>
-						<span class="df-price"><span class="df-price">5 399 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
-						<a href="#thanks2"  name="modal" class="df-link">Шерсть заказать</a>
+						<span class="df-price"><span class="df-price-d">5 399 р.</span><span class="df-cur-pare">— 100 пар в кейсе </span></span><br>
+						<a href="#thanks2" name="tovar" class="df-link">Шерсть заказать</a>
 					</div>
 					
 				</div>

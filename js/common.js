@@ -16,6 +16,29 @@ $(document).ready(function(){
         $(id).fadeIn(500); 
     });
 
+    
+
+     $('input[type=radio]').change(function() {
+       // $(this).parent().parent().find('.hprice').html($(this).parent().next('.df-price').find('.df-price-d').html());
+        var price = $(this).parent().next('.df-price').find('.df-price-d').html();
+        $(this).parent().parent().parent().find('.hprice').val(price);
+
+        var pare = $(this).parent().next('.df-price').find('.df-cur-pare').html();
+        $(this).parent().parent().parent().find('.hpare').val(pare.substr(2));
+    });
+
+    $('input:radio').each(function () {
+        
+       
+        if ($(this).prop('checked')) {
+            var price = $(this).parent().next('.df-price').find('.df-price-d').html();
+            $(this).parent().parent().parent().find('.hprice').val(price);
+
+            var pare = $(this).parent().next('.df-price').find('.df-cur-pare').html();
+            $(this).parent().parent().parent().find('.hpare').val(pare.substr(2));
+        }
+    });
+
     $('a[name=tovar]').click(function(e) {
         e.preventDefault();
         var id = $(this).attr('href');
@@ -28,12 +51,10 @@ $(document).ready(function(){
         posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement ||document.body.parentNode || document.body).scrollTop;
         $(id).css('top',  posTop+50);
         $(id).css('left', winW/2-$(id).width()/2);
-        
-        //alert($(this).parent().parent().parent().find($('input[name=checkbox1]:checked')).val());
-        $('.db-h-two').html($(this).parent().parent().parent().find('.df-tovar-name').html());
-        $('.db-price-one').html($(this).parent().parent().parent().find('.df-cur-price').html());
-        $('.db-price-two').html($(this).parent().parent().parent().find('.df-cur-pare').html());
-        $('.db-window-img').html($(this).parent().parent().parent().find('.df-tovar-picture').html());
+        $('#db-h-two').html($(this).parent().parent().parent().find('.df-tovar-name').html());
+        $('#db-price-one').html($(this).parent().parent().parent().find('.hprice').val());
+        $('#db-price-two').html($(this).parent().parent().parent().find('.hpare').val());
+        $('#db-window-img').html($(this).parent().parent().parent().find('.df-tovar-picture').html());
         $(id).fadeIn(500); 
     });
 
