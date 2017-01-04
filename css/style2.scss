@@ -49,7 +49,8 @@ body, html{
     z-index:9998; 
     background: #fff;
     font-family: "pt-sans-caption";
-
+    margin: 0 auto !important;
+width: 300px;
 	.db-window-img{
 	
 	margin: 0 auto;
@@ -290,6 +291,9 @@ input[type="text"]{
 }
 
 @media only screen and (min-width : 992px) {
+	.window{
+		width:670px !important;
+	}
 	.db-all-container{
 		text-align: center;
 		padding-bottom: 17px;
