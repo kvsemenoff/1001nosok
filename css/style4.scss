@@ -352,7 +352,38 @@
 		}
 	}
 }
-
+.k1{
+	display: block;
+	width: 106px;
+	height: 119px;
+	background: url(../img/k1.png) no-repeat top center;
+	position: absolute;
+	top: -100px;
+	left: 220px;
+}
+.k2{
+	display: block;
+	width: 235px;
+	height: 135px;
+	background: url(../img/k2.png) no-repeat top center;
+	position: absolute;
+	top: 310px;
+	left: -180px;
+}
+.k3{
+	display: block;
+	width: 109px;
+	height: 199px;
+	background: url(../img/k3.png) no-repeat top center;
+	position: absolute;
+	top: -380px;
+	left: -100px;
+}
+ .dd-look-txt__sub-text{
+ 	font-family: "pt-sans-caption";
+ 	font-size: 16px;
+ 	color: #8e8e8e;
+ }
 // Внутренняя
 
 .dd-section-other{
@@ -481,6 +512,7 @@
 				text-align: center;
 				margin: 20px auto;
 				position:absolute;
+
 			}
 			.dd-look-txt1{
 				top: 70px;
