@@ -110,7 +110,7 @@
 				<span class="df-span2 df-tovar-name">«Бамбук MIX»</span>
 				<div class="df-case">
 					<div class="df-tovar-picture">
-						<img src="img/df-case1.png" alt="">
+						<img src="img/df-case2.png" alt="">
 					</div>
 					<span class="df-vigodno">Выгодно!</span>
 					<span class="df-chose">Выбери свой кейс</span>
@@ -145,7 +145,7 @@
 				<span class="df-span2 df-tovar-name">«Носки ХБ MIX»</span>
 				<div class="df-case">
 					<div class="df-tovar-picture">
-						<img src="img/df-case1.png" alt="">
+						<img src="img/df-case2.png" alt="">
 					</div>
 					<span class="df-vigodno">Комфортно!</span>
 					<span class="df-chose">Выбери свой кейс</span>
