@@ -5,7 +5,7 @@
 					<span class="db-header">Оставьте заявку и мы поможем выбрать</span>
 			</div>
 			<div class="clearfix"></div>
-			<form action="thanks.php" method="post">
+			<form action="thanks.php" method="post" class="form1">
 				<div class="col-md-4">
 					<div class="db-input-one">
 						<input type="text" placeholder="Ваше имя" name="uname">
