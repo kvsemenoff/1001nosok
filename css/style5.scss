@@ -52,6 +52,10 @@
 	}
 }
 
+.df-price-d{
+	font-weight: bold;
+	color: #000 !important;
+}
 
 //========otzivi
 a:active, a:focus{
@@ -350,7 +354,8 @@ a:active, a:focus{
 
 @media only screen and (min-width : 768px) {
 	.df-bg-noski{			
-		height: 100%;
+		//height: 100%;
+
 		h2{						
 			font-size: 50px;
 			margin-top: 55px; 
@@ -363,7 +368,7 @@ a:active, a:focus{
 			}
 			.df-right{					
 				float: right;			
-				margin-bottom: 30px;				
+				margin-bottom: 30px;	
 			}
 		}
 	}
@@ -428,6 +433,7 @@ a:active, a:focus{
 
 @media only screen and (min-width : 992px) {
 	.df-bg-noski{		
+		height: unset;
 		.df-2box{
 			.df-left{					
 				margin-left: -11px;	
